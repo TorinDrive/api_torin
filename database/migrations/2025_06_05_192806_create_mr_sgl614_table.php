@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('mr_sgd10', function (Blueprint $table) {
+        Schema::create('mr_sgl614', function (Blueprint $table) {
             $table->id(); 
             $table->string('codigo'); 
             $table->double('capacidade_kg'); 
@@ -39,6 +39,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('mr_sgd10');
+        Schema::dropIfExists('mr_sgl614');
     }
 };
