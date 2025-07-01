@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\MrBgl225;
 
 class MrBgl225Controller extends Controller
 {
@@ -12,15 +13,7 @@ class MrBgl225Controller extends Controller
      */
     public function index()
     {
-        //
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     */
-    public function store(Request $request)
-    {
-        //
+        return MrBgl225::all(); 
     }
 
     /**
@@ -28,22 +21,6 @@ class MrBgl225Controller extends Controller
      */
     public function show(string $id)
     {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(Request $request, string $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(string $id)
-    {
-        //
+        return MrBgl225::findOrFail($id);
     }
 }

@@ -11,10 +11,10 @@ return new class extends Migration
      * Adicione ou remova tabelas desta lista conforme necessário.
      */
     private array $machineTables = [
-        'mr_sgd00', 'mr_sgd05', 'mr_sgd10', 'mr_sgd13', 'mr_sgr26',
+        'mr_sgd00', 'mr_sgd05', 'mr_sgd10', 'mr_sgd13', 'mr_sgd26', 'mr_sgd39', 'mr_sgd125', 'mr_sgd220',
         'mr_dmg211', 'mr_dmg212', 'mr_hgl14', 'mr_hgl22', 'mr_bgl225',
         'mr_rgl018', 'mr_rgl235', 'mr_rgl303', 'mr_rgl304', 'mr_rgl305', 'mr_rgl306',
-        'mr_sgl12', 'mr_sgl23s', 'mr_sgl23x', 'mr_sgl206', 'mr_sgl306', 'mr_sgl514', 'mr_sgl636'
+        'mr_sgl12', 'mr_sgl23s', 'mr_sgl23x', 'mr_sgl206', 'mr_sgl306', 'mr_sgl514', 'mr_sgl614', 'mr_sgl636'
     ];
 
     /**
