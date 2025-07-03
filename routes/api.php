@@ -27,6 +27,8 @@ use App\Http\Controllers\Api\MrSgl514Controller;
 use App\Http\Controllers\Api\MrSgl636Controller;
 use App\Http\Controllers\Api\MrSgr26Controller;
 
+use App\Http\Controllers\Api\ContatoController;
+
 // Agrupa as rotas para melhor organização. Cada linha define duas rotas:
 // uma para listar todos os itens (index) e outra para buscar um item específico (show).
 Route::prefix('/')->group(function () {
@@ -54,3 +56,5 @@ Route::prefix('/')->group(function () {
     Route::apiResource('mr_sgl636', MrSgl636Controller::class)->only(['index', 'show']);
     Route::apiResource('mr_sgr26', MrSgr26Controller::class)->only(['index', 'show']);
 });
+
+Route::post('/contato', [ContatoController::class, 'enviar']);

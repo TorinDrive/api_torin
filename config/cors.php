@@ -19,7 +19,10 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['*'],
+    'allowed_origins' => [
+        'http://localhost:5173', // URL do seu front-end Vue em desenvolvimento
+        'http://seu-site-em-producao.com' // URL de produção
+    ],
 
     'allowed_origins_patterns' => [],
 
