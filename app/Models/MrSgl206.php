@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Storage;
 
-class MrSgd05 extends Model
+class MrSgd206 extends Model
 {
     protected $table = 'mr_sgl206';
 
