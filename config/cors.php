@@ -20,8 +20,8 @@ return [
     'allowed_methods' => ['*'],
 
     'allowed_origins' => [
-        'http://localhost:5173', // URL do seu front-end Vue em desenvolvimento
-        'https://torindrive.com.br' // URL de produção
+        'http://localhost:5173', 
+        'https://torindrive.com.br' 
     ],
 
     'allowed_origins_patterns' => [],
